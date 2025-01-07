@@ -23,3 +23,6 @@ class Player:
 
     def add_points(self) -> None:
         self.__score += 1
+
+# OOP in Python, class vs. instance attributes, constructor magic method
+# https://youtu.be/Ej_02ICOIgs
