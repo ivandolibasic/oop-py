@@ -35,6 +35,8 @@ def run():
         print("Congrats, you won!")
     else:
         print(f"You lost. The guess word was: '{hangman_game.guess_word}'.")
+    print(f"Your final score: {hangman_game.points_calculator.calculate_points(
+        hangman_game.guess_attempt, hangman_game.guess_word, hangman_game.player)}")
 
 
 run()

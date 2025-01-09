@@ -15,6 +15,18 @@ class HangmanGame:
     def guess_word(self):
         return self.__guess_word
 
+    @property
+    def points_calculator(self):
+        return self.__points_calculator
+
+    @property
+    def player(self):
+        return self.__player
+
+    @property
+    def guess_attempt(self):
+        return self.__guess_attempt
+
     def display(self) -> None:
         self.__display_tool.display(self.__player.name,
                                     self.__max_lives,
